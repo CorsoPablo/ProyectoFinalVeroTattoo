@@ -1,8 +1,8 @@
 /*------------------------ footer ------------*/
 footer {
     width: 100%;
-    background: #202020;
-    color: white;
+    background: map-get($map: $paleta, $key: 'color2' );
+    color: map-get($map: $paleta, $key: 'color1' );
   
   }
   
@@ -42,7 +42,7 @@ footer {
   .row1 a {
     margin-top: 10px;
     margin-left: 20px;
-    color: #C7C7C7;
+    color: map-get($map: $paleta, $key: 'color3' );
   }
   
   .colum2 {
@@ -72,7 +72,7 @@ footer {
   
   .container-footer {
     width: 100%;
-    background: #101010;
+    background: map-get($map: $paleta, $key: 'color2' );
   }
   
   .footer {
@@ -85,18 +85,18 @@ footer {
   }
   
   .copyright {
-    color: #C7C7C7;
+    color: map-get($map: $paleta, $key: 'color3' );
   }
   
   .copyright a {
     text-decoration: none;
-    color: white;
+    color: map-get($map: $paleta, $key: 'color1' );
     font-weight: bold;
   }
   
   .information a {
     text-decoration: none;
-    color: #C7C7C7;
+    color: map-get($map: $paleta, $key: 'color3' );
   }
   
   @media (min-width: 768px) {

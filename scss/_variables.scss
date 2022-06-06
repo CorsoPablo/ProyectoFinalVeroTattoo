@@ -1,7 +1,10 @@
-body{
-    color: white;
-    background-image: url(../imagenes/nick-nice-gPm8h3DS1s4-unsplash.jpg);
-}
-header{
-    color: white;
+$paleta: (
+    'color1': rgba(255, 255, 255, 0.984),
+    'color2': #202020,
+    'color3': #C7C7C7
+);
+
+@mixin animacion ($scale, $translateY) {
+    transform: scale($scale) translateY($translateY);
+    
 }
