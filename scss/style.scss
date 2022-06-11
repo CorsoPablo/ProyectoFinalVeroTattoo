@@ -1,0 +1,33 @@
+@import '_variables';
+@import '_footer';
+
+body{
+    color: map-get($map: $paleta, $key: 'color1' );
+    background-image: url(../imagenes/nick-nice-gPm8h3DS1s4-unsplash.jpg);
+}
+header{
+    color: map-get($map: $paleta, $key: 'color1' );
+}
+
+
+
+
+
+
+.carousel-inner{
+    max-height: 600px;
+}
+
+
+
+/* animacion galeria */
+.galeria:hover {
+ @include animacion(1.3, 50px);
+}
+
+  
+@media (max-width:768px){
+    #descripcion{
+        width: 80% !important;
+    }
+}
