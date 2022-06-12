@@ -61,6 +61,12 @@ footer {
   background: #202020;
   color: rgba(255, 255, 255, 0.984); }
 
+.logo-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 0%;
+  margin-right: 5px; }
+
 .container-footer-all {
   width: 100%;
   max-width: 1200px;
