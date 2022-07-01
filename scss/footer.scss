@@ -1,128 +1,137 @@
 /*------------------------ footer ------------*/
 footer {
-    width: 100%;
-    background: map-get($map: $paleta, $key: 'color2' );
-    color: map-get($map: $paleta, $key: 'color1' );
-  
-  }
-  .logo-whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 0%;
-    margin-right: 5px;
-  }
-  
-  .container-footer-all {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
-  }
-  
-  .container-body {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
-  .colum1 {
-    max-width: 400px;
-  
-  }
-  
+  width: 100%;
+  background: map-get($map: $paleta, $key: 'color2');
+  color: map-get($map: $paleta, $key: 'color1');
+
+}
+
+.logo-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 0%;
+  margin-right: 5px;
+}
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.colum1 {
+  max-width: 400px;
+
+}
+
+.colum1 h1 {
+  font-size: 22px;
+  font-family: 'Galada';
+}
+
+.row1 {
+  margin-top: 20px;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Galada';
+}
+
+.row1 img {
+  width: 40px;
+  height: 36px;
+}
+
+.row1 a {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: map-get($map: $paleta, $key: 'color3');
+}
+
+.colum2 {
+  max-width: 400px;
+}
+
+.colum2 h1 {
+  font-size: 22px;
+  font-family: 'Galada';
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Galada';
+}
+
+.row2 img {
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer {
+  width: 100%;
+  background: map-get($map: $paleta, $key: 'color2');
+}
+
+.footer {
+  font-size: 12px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.copyright {
+  color: map-get($map: $paleta, $key: 'color3');
+  font-family: 'Galada';
+}
+
+.copyright a {
+  text-decoration: none;
+  color: map-get($map: $paleta, $key: 'color1');
+  font-weight: bold;
+  font-family: 'Galada';
+}
+
+.information a {
+  text-decoration: none;
+  color: map-get($map: $paleta, $key: 'color3');
+  font-family: 'Galada';
+}
+
+@media (min-width: 768px) {
   .colum1 h1 {
-    font-size: 22px;
+    font-size: 30px;
   }
-  
-  .row1 {
-    margin-top: 20px;
-    display: flex;
-    font-size: 15px;
+
+  .row {
+    font-size: 20px;
   }
-  
-  .row1 img {
-    width: 40px;
-    height: 36px;
-  }
-  
-  .row1 a {
-    margin-top: 10px;
-    margin-left: 20px;
-    color: map-get($map: $paleta, $key: 'color3' );
-  }
-  
-  .colum2 {
-    max-width: 400px;
-  }
-  
+
   .colum2 h1 {
-    font-size: 22px;
+    font-size: 30px;
   }
-  
+
   .row2 {
-    margin-top: 20px;
-    display: flex;
+    font-size: 17px;
+  }
+
+  .footer {
     font-size: 15px;
   }
-  
-  .row2 img {
-    width: 36px;
-    height: 36px;
-  }
-  
-  .row2 label {
-    margin-top: 10px;
-    margin-left: 20px;
-    max-width: 140px;
-  }
-  
-  .container-footer {
-    width: 100%;
-    background: map-get($map: $paleta, $key: 'color2' );
-  }
-  
-  .footer {
-    font-size: 12px;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .copyright {
-    color: map-get($map: $paleta, $key: 'color3' );
-  }
-  
-  .copyright a {
-    text-decoration: none;
-    color: map-get($map: $paleta, $key: 'color1' );
-    font-weight: bold;
-  }
-  
-  .information a {
-    text-decoration: none;
-    color: map-get($map: $paleta, $key: 'color3' );
-  }
-  
-  @media (min-width: 768px) {
-    .colum1 h1 {
-      font-size: 30px;
-    }
-  
-    .row {
-      font-size: 20px;
-    }
-  
-    .colum2 h1 {
-      font-size: 30px;
-    }
-  
-    .row2 {
-      font-size: 17px;
-    }
-  
-    .footer {
-      font-size: 15px;
-    }
-  }
+}

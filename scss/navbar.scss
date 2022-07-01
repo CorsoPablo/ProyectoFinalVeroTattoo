@@ -1,5 +1,10 @@
+.titulo {
+    font-family: 'Acme';
+    font-size: 25px;
+}
+
 .bg-black {
-    background-color: rgba(0, 0, 0, 0.799);
+    background-color: map-get($map: $paleta, $key: 'color2');
 }
 
 #logo {
@@ -23,11 +28,13 @@
 }
 
 .nav-link {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+    font-family: 'Quicksand';
+    font-size: 20px;
 }
 
 .v-line {
-    background-color: gray;
+    background-color: map-get($map: $paleta, $key: 'color6');
     width: 1px;
     height: 20px;
 }
@@ -46,5 +53,3 @@
         display: none;
     }
 }
-
-
